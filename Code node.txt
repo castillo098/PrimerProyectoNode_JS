@@ -1,0 +1,77 @@
+Microsoft Windows [Versión 10.0.19042.487]
+(c) 2020 Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\dell>cd C:\Users\dell\Documents\programacion web_Node 2020
+
+C:\Users\dell\Documents\programacion web_Node 2020>cd primer_proyecto
+
+C:\Users\dell\Documents\programacion web_Node 2020\Primer_proyecto> npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (primer_proyecto) aplicacion1
+version: (1.0.0) el el primer proyecto de nodeJs
+Invalid version: "el el primer proyecto de nodeJs "
+version: (1.0.0)
+description: primer proyecto
+entry point: (index.js)
+test command:
+git repository: npm WARN init canceled
+
+C:\Users\dell\Documents\programacion web_Node 2020\Primer_proyecto> npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+description: es el primer proyrcto en nodeJs
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author: Jonathan
+license: (ISC)
+About to write to C:\Users\dell\Documents\programacion web_Node 2020\Primer_proyecto\package.json:
+
+{
+  "name": "aplicacion1",
+  "version": "1.0.0",
+  "description": "es el primer proyrcto en nodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+
+C:\Users\dell\Documents\programacion web_Node 2020\Primer_proyecto> node index.js
+El servidor inicia correctamente
+^C
+C:\Users\dell\Documents\programacion web_Node 2020\Primer_proyecto>node index.js
+El servidor inicia correctamente
+^C
+C:\Users\dell\Documents\programacion web_Node 2020\Primer_proyecto>node index.js
+El servidor inicia correctamente
+^C
+C:\Users\dell\Documents\programacion web_Node 2020\Primer_proyecto>node index.js
+El servidor inicia correctamente
+^C
+C:\Users\dell\Documents\programacion web_Node 2020\Primer_proyecto> npm start
+npm ERR! missing script: start
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\dell\AppData\Roaming\npm-cache\_logs\2020-09-02T20_15_16_369Z-debug.log
+
+C:\Users\dell\Documents\programacion web_Node 2020\Primer_proyecto>
